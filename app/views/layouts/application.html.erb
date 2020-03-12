@@ -14,9 +14,15 @@
     <p class="alert"><%= alert %></p>
 
     <% if current_user %>
-      <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+      <ul>
+      <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
+      </ul>
     <% else %>
-      <p><%= link_to "Login", new_user_session_path %> or <%= link_to "Register", new_user_registration_path %></p>
+
+      <ul>
+        <li><%= link_to "Login", new_user_session_path %></li>
+        <li><%= link_to "Register", new_user_registration_path %></li>
+      </ul>
     <% end %>
 
     <%= yield %>
