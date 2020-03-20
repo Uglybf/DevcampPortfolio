@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Uglybf/bafl_view_tool
+  revision: 6f784afc10c741e51d96991b823a7ef65a8ebad0
+  specs:
+    bafl_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -207,6 +213,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bafl_view_tool!
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.3.1)
   byebug
