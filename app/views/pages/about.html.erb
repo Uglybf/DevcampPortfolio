@@ -1,6 +1,17 @@
 <h1>About Florian</h1>
 <hr>
-<p>Born and raised in Austria.</p>
-<p>After traveling parts of teh world I decided to come back to my beloved country and found a place again on the deepest Lake of Austria. Where I stay to this day on and enjoy the Alps while writing code ;)</p>
-<hr>
-<%= link_to "Contact Page", contact_path, class: "btn btn-lg btn-secondary" %>
+
+<div class="row">
+  <div class="col-md-4">
+    
+
+    <%= image_tag "me1.jpeg", width: 300, alt: "me underwater" %>
+  </div>
+  <div class="col-md-8">
+    <p>Born and raised in Austria.</p>
+    <p>After traveling parts of teh world I decided to come back to my beloved country and found a place again on the
+      deepest Lake of Austria. Where I stay to this day on and enjoy the Alps while writing code ;)</p>
+    <br>
+    <%= link_to "Contact Page", contact_path, class: "btn btn-lg btn-secondary" %>
+  </div>
+</div>
