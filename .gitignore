@@ -28,3 +28,4 @@
 /app/assets/videos/*
 /app/assets/images/*
 /app/assets/.DS_Store
+/.env
